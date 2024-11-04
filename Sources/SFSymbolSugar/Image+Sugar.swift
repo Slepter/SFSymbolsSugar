@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-extension Image {
-    init(_ sfSymbol: SFSymbol) {
-        self.init(systemName: sfSymbol.name)
+public extension Image {
+    public init(symbol: SFSymbol) {
+        self.init(systemName: symbol.name)
     }
 }

@@ -1,15 +1,19 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-struct SFSymbol {
-    let name: String
+public struct SFSymbol {
+    public let name: String
     
-    static func + (lhs: SFSymbol, rhs: String) -> SFSymbol {
+    private init(name: String) {
+        self.name = name
+    }
+    
+    public static func + (lhs: SFSymbol, rhs: String) -> SFSymbol {
         SFSymbol(name: "\(lhs.name).\(rhs)")
     }
 }
 
-extension SFSymbol {
+public extension SFSymbol {
     static let plus = SFSymbol(name: "plus")
     static let minus = SFSymbol(name: "minus")
     static let chevron = SFSymbol(name: "chevron")
@@ -38,7 +42,7 @@ extension SFSymbol {
     static let barcode = SFSymbol(name: "barcode")
 }
 
-extension SFSymbol {
+public extension SFSymbol {
     var left: SFSymbol { self + "left" }
     var leading: SFSymbol { self + "leading" }
     var right: SFSymbol { self + "right" }
