@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 struct SFSymbol {
-    private let name: String
+    let name: String
     
     static func + (lhs: SFSymbol, rhs: String) -> SFSymbol {
         SFSymbol(name: "\(lhs.name).\(rhs)")
