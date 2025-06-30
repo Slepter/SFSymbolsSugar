@@ -40,6 +40,7 @@ public extension SFSymbol {
     static let checkmark = SFSymbol(name: "checkmark")
     static let camera = SFSymbol(name: "camera")
     static let barcode = SFSymbol(name: "barcode")
+    static let shippingbox = SFSymbol(name: "shippingbox")
 }
 
 public extension SFSymbol {
