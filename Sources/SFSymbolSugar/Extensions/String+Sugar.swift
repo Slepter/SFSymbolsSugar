@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension String {
+public extension String {
     static func symbol(_ symbol: SFSymbol) -> String {
         symbol.name
     }
