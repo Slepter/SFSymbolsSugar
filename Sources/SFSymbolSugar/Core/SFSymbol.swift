@@ -41,6 +41,7 @@ public extension SFSymbol {
     static let camera = SFSymbol(name: "camera")
     static let barcode = SFSymbol(name: "barcode")
     static let shippingbox = SFSymbol(name: "shippingbox")
+    static let rectangle = SFSymbol(name: "rectangle")
 }
 
 public extension SFSymbol {
@@ -70,4 +71,6 @@ public extension SFSymbol {
     var clockwise: SFSymbol { self + "clockwise" }
     
     var viewfinder: SFSymbol { self + "viewfinder" }
+    
+    var dashed: SFSymbol { self + "dashed" }
 }
