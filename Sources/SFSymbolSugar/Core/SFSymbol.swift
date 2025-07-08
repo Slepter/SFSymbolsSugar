@@ -42,6 +42,7 @@ public extension SFSymbol {
     static let barcode = SFSymbol(name: "barcode")
     static let shippingbox = SFSymbol(name: "shippingbox")
     static let rectangle = SFSymbol(name: "rectangle")
+    static let pills = SFSymbol(name: "pills")
 }
 
 public extension SFSymbol {
