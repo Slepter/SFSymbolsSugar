@@ -74,4 +74,10 @@ public extension SFSymbol {
     var viewfinder: SFSymbol { self + "viewfinder" }
     
     var dashed: SFSymbol { self + "dashed" }
+    
+    var trianglehead: SFSymbol { self + "trianglehead" }
+    
+    var num_2: SFSymbol { self + "2" }
+    
+    var counterclockwise: SFSymbol { self + "counterclockwise" }
 }
