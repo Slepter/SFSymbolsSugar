@@ -43,6 +43,7 @@ public extension SFSymbol {
     static let shippingbox = SFSymbol(name: "shippingbox")
     static let rectangle = SFSymbol(name: "rectangle")
     static let pills = SFSymbol(name: "pills")
+    static let person = SFSymbol(name: "person")
 }
 
 public extension SFSymbol {
@@ -80,4 +81,6 @@ public extension SFSymbol {
     var num_2: SFSymbol { self + "2" }
     
     var counterclockwise: SFSymbol { self + "counterclockwise" }
+    
+    var crop: SFSymbol { self + "crop" }
 }
