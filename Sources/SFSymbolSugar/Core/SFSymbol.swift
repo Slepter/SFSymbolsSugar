@@ -84,4 +84,6 @@ public extension SFSymbol {
     var counterclockwise: SFSymbol { self + "counterclockwise" }
     
     var crop: SFSymbol { self + "crop" }
+    
+    var clipboard: SFSymbol { self + "clipboard" }
 }
