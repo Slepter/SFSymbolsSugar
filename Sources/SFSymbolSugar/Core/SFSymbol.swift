@@ -44,6 +44,7 @@ public extension SFSymbol {
     static let rectangle = SFSymbol(name: "rectangle")
     static let pills = SFSymbol(name: "pills")
     static let person = SFSymbol(name: "person")
+    static let tray = SFSymbol(name: "tray")
 }
 
 public extension SFSymbol {
