@@ -52,38 +52,27 @@ public extension SFSymbol {
     var leading: SFSymbol { self + "leading" }
     var right: SFSymbol { self + "right" }
     var trailing: SFSymbol { self + "trailing" }
-    
     var fill: SFSymbol { self + "fill" }
     var circle: SFSymbol { self + "circle" }
     var bullet: SFSymbol { self + "bullet" }
     var rectangle: SFSymbol { self + "rectangle" }
-    
     var text: SFSymbol { self + "text" }
     var badge: SFSymbol { self + "badge" }
     var plus: SFSymbol { self + "plus" }
-    
     var and: SFSymbol { self + "and" }
     var stars: SFSymbol { self + "stars" }
-    
     var on: SFSymbol { self + "on" }
     var doc: SFSymbol { self + "doc" }
-    
     var horizontal: SFSymbol { self + "horizontal" }
     var three: SFSymbol { self + "3" }
-    
     var clockwise: SFSymbol { self + "clockwise" }
-    
     var viewfinder: SFSymbol { self + "viewfinder" }
-    
     var dashed: SFSymbol { self + "dashed" }
-    
     var trianglehead: SFSymbol { self + "trianglehead" }
-    
     var num_2: SFSymbol { self + "2" }
-    
     var counterclockwise: SFSymbol { self + "counterclockwise" }
-    
     var crop: SFSymbol { self + "crop" }
-    
     var clipboard: SFSymbol { self + "clipboard" }
+    var up: SFSymbol { self + "up" }
+    var document: SFSymbol { self + "document" }
 }
